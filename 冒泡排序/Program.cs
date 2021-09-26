@@ -24,25 +24,24 @@ namespace 冒泡排序
             //第八趟比较：1,0,2,3,4,5,6,7,8,9 交换了2次
             //第九趟比较：0,1,2,3,4,5,6,7,8,9 交换了1次
             Console.WriteLine("数组的长度是{0}", nums.Length);
-            Array.Sort(nums);//调用Array.array方法来对数组进行从小到大的排序
-            //如果要从大到小的话，只需要升序再反转就行了
+            //Array.Sort(nums);//调用Array.array方法来对数组进行从小到大的排序
+            ////如果要从大到小的话，只需要升序再反转就行了
+            //Array.Reverse(nums);//调用Array.Reverse方法来对数组进行反转
 
-            Array.Reverse(nums);//调用Array.Reverse方法来对数组进行反转
-            
 
-            //for (int i = 0; i < nums.Length - 1; i++)//i从0开始 比较9次 所以i<nums.Lenth-1
-            //{
-            //    for (int j = 0; j < nums.Length-1-i; j++)//nums.Length-1-i,是每次交换真正需要交换的次数。
-            //                                             //虽说nums.Length-1但是这样会增加程序的运算量
-            //    {
-            //        if (nums[j] > nums[j + 1])
-            //        {
-            //            int temp = nums[j];
-            //            nums[j] = nums[j + 1];
-            //            nums[j + 1] = temp;
-            //        }
-            //    }
-            //}
+            for (int i = 0; i < nums.Length - 1; i++)//i从0开始 比较9次 所以i<nums.Lenth-1
+            {
+                for (int j = 0; j < nums.Length - 1 - i; j++)//nums.Length-1-i,是每次交换真正需要交换的次数。
+                                                             //虽说nums.Length-1但是这样会增加程序的运算量
+                {
+                    if (nums[j] > nums[j + 1])
+                    {
+                        int temp = nums[j];
+                        nums[j] = nums[j + 1];
+                        nums[j + 1] = temp;
+                    }
+                }
+            }
             Console.WriteLine("从小到大排序后的顺序为：");
             for (int i = 0; i < nums.Length; i++)
             {

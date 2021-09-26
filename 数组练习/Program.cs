@@ -15,55 +15,55 @@ namespace 数组练习
             #region 练习1：数组输出最大值 最小值 总和 平均数 以及随机生成随机数
             ////从一个整数数组中取出最大的整数，最小的整数，总和，平均值，随机数
             ////int[] nums = new int[10];
-            //int[] nums = { -3, -2, -5, -4, -9, -6, -5, -7, -7, -2, -9, -10 };//随意赋初值
-            //double sum = 0;//求平均值，习惯用double变量来定义
+            int[] nums = { -3, -2, -5, -4, -9, -6, -5, -7, -7, -2, -9, -10 };//随意赋初值
+            double sum = 0;//求平均值，习惯用double变量来定义
 
-            ////for (int i = 0; i < nums.Length; i++)
-            ////{
-            ////    nums[i] = i + 1;
-            ////}
-            //int max = nums[0];
-            //int min = nums[0];
-            ////关于nums[i]在循环中的理解方式
-            ////1.代表数组中当前循环到的元素
-            ////2.代表数组中的每一个元素
             //for (int i = 0; i < nums.Length; i++)
             //{
-
-            //    sum += nums[i];
-            //    //以下代码用来判定总和
-
-            //    //以下代码用来判定最大值        
-            //    if (nums[i] > max)//循环的让数组中的每个元素和我的最大值进行比较
-            //    {
-            //        max = nums[i];
-
-            //    }
-            //    //以下代码用来判定最小值
-            //    else if (nums[i] < min)//循环的让数组中的每个元素和我的最小值进行比较
-            //    {
-
-            //        min = nums[i];
-
-            //    }
-            //    else
-            //    {
-            //        continue;
-            //    }
-            //    if (i == nums.Length - 1)
-            //    {
-            //        Console.WriteLine("这个数组的长度是{0}", nums.Length);
-            //        Console.WriteLine("这个数组中最大的数是{0}", max);
-            //        Console.WriteLine("这个数组中最小的数是{0}", min);
-            //        Console.WriteLine("这个数组的总和为{0}", sum);
-            //        Console.WriteLine("这个数组的平均值是{0:0.00}", sum / nums.Length);
-            //        Random r = new Random();//调用Random方法来生成一个随机数
-            //        int rNumber = r.Next(1, 13);
-            //        Console.WriteLine("随机产生的一个数组中的数是{0}", nums[rNumber]);
-            //    }
-
+            //    nums[i] = i + 1;
             //}
-            //Console.ReadKey(true); 
+            int max = nums[0];
+            int min = nums[0];
+            //关于nums[i]在循环中的理解方式
+            //1.代表数组中当前循环到的元素
+            //2.代表数组中的每一个元素
+            for (int i = 0; i < nums.Length; i++)
+            {
+
+                sum += nums[i];
+                //以下代码用来判定总和
+
+                //以下代码用来判定最大值        
+                if (nums[i] > max)//循环的让数组中的每个元素和我的最大值进行比较
+                {
+                    max = nums[i];
+
+                }
+                //以下代码用来判定最小值
+                else if (nums[i] < min)//循环的让数组中的每个元素和我的最小值进行比较
+                {
+
+                    min = nums[i];
+
+                }
+                else
+                {
+                    continue;
+                }
+                if (i == nums.Length - 1)
+                {
+                    Console.WriteLine("这个数组的长度是{0}", nums.Length);
+                    Console.WriteLine("这个数组中最大的数是{0}", max);
+                    Console.WriteLine("这个数组中最小的数是{0}", min);
+                    Console.WriteLine("这个数组的总和为{0}", sum);
+                    Console.WriteLine("这个数组的平均值是{0:0.00}", sum / nums.Length);
+                    Random r = new Random();//调用Random方法来生成一个随机数
+                    int rNumber = r.Next(1, 13);
+                    Console.WriteLine("随机产生的一个数组中的数是{0}", nums[rNumber]);
+                }
+
+            }
+            Console.ReadKey(true);
             #endregion
             #region 练习2：数组里都是人的名字，老杨，老张，老苏，老赵，老陈...将其输出为老杨|老陈。。。
             // //数组类型[] 数组名=new 数组类型[数组长度];
@@ -165,20 +165,20 @@ namespace 数组练习
 
 
             //以下采用定义一个用于交换的第三方字符串 temp提供交换
-            string[] names = new string[] { "我", "爱", "你", "你", "爱", "我", "蜜雪冰城", "甜蜜蜜" };//0 1 2
-            //string[] names2 = new string[names.Length];
-            Console.WriteLine("数组的长度是" + names.Length);
-            for (int i = 0; i < names.Length/2; i++)//这里让names.Lenth/2 不然他会循环交换两次导致白忙活
-            {
-                string temp = names[i];
-                names[i] = names[names.Length - 1 - i];
-                names[names.Length- 1 - i] = temp;
-            }
-            for (int i = 0; i < names.Length; i++)
-            {
-                Console.Write(names[i]);
-            }
-            Console.ReadKey(true);
+            //string[] names = new string[] { "我", "爱", "你", "你", "爱", "我", "蜜雪冰城", "甜蜜蜜" };//0 1 2
+            ////string[] names2 = new string[names.Length];
+            //Console.WriteLine("数组的长度是" + names.Length);
+            //for (int i = 0; i < names.Length/2; i++)//这里让names.Lenth/2 不然他会循环交换两次导致白忙活
+            //{
+            //    string temp = names[i];
+            //    names[i] = names[names.Length - 1 - i];
+            //    names[names.Length- 1 - i] = temp;
+            //}
+            //for (int i = 0; i < names.Length; i++)
+            //{
+            //    Console.Write(names[i]);
+            //}
+            //Console.ReadKey(true);
 
 
             #endregion
