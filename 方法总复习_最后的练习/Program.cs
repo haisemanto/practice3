@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 方法总复习_最后的练习
+namespace 方法练习_计算这两个数字之间所有整数的和
 {
     class Program
     {

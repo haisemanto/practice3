@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 方法练习题_2
+namespace 方法GetNumber
 {
     class Program
     {//读取用户输入的整数，定义成方法，多次调用，(如果用户输入的是数字，则返回，否则提示用户输入)

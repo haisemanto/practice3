@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 方法练习题4
+namespace 方法练习_允许用户输入yes或no并返回输入值
 {
     class Program
     {
         static void Main(string[] args)
-        {//定义一个方法，之能允许用户输入yes或no并返回输入值
+        {//定义一个方法，只能允许用户输入yes或no并返回输入值
             Console.WriteLine("请输入yes/no");
             string input = Console.ReadLine();
             string strout =IsYesOrNo(input);

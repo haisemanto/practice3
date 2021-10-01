@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 方法最后的练习3
+namespace 方法练习_计算一个整型数组的平均值保留两位小数
 {
     class Program
     {

@@ -18,8 +18,7 @@ namespace params可变参数
             //Console.ReadKey(true);
         }
         public static void Test(string name, int id, params int[] score)//把传参的int型数字当做这个数组的元素传参
-                                                                        //params可变参数必须是形参列表中的最后一个参数
-                                                                        //params int[] score可变参数数组（可以改变参数的数组）
+                                                                        //params可变参数必须是形参列表中的最后一个参数                                                                       //params int[] score可变参数数组（可以改变参数的数组）
         {
             int sum = 0;
             for (int i = 0; i < score.Length; i++)

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 方法最后的练习2
+namespace 方法练习_输出字符串数组中最长的字符串
 {
     class Program
     {

@@ -33,11 +33,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的调用_传参", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法：判断一个年份是不是闰年", "方法：判断一个年份是不是闰年\方法：判断一个年份是不是闰年.csproj", "{0F479CF3-7CC1-44DB-8B84-643FD9311FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习题 2", "方法练习题 2\方法练习题 2.csproj", "{BEE17875-E4FB-45D1-8B85-F9BE9F4B1597}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法GetNumber", "方法练习题 2\方法GetNumber.csproj", "{BEE17875-E4FB-45D1-8B85-F9BE9F4B1597}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习题3_数组的传参", "方法练习题3\方法练习题3_数组的传参.csproj", "{1E66CD72-0621-4900-B93E-DBC02886E1A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习题4", "方法练习题4\方法练习题4.csproj", "{38A8827B-546F-436E-B3D3-401BB076DA82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_允许用户输入yes或no并返回输入值", "方法练习题4\方法练习_允许用户输入yes或no并返回输入值.csproj", "{38A8827B-546F-436E-B3D3-401BB076DA82}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "out参数", "out参数\out参数.csproj", "{88EE6745-6968-4F7D-85F4-70B2129C2981}"
 EndProject
@@ -57,13 +57,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的重载", "方法�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的递归", "方法的递归\方法的递归.csproj", "{A016ECE6-C730-499B-8890-D5E8C32699C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法总复习_最后的练习", "方法总复习_最后的练习\方法总复习_最后的练习.csproj", "{C65EFFDF-8C79-4D0C-975F-DE070471CA3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_计算这两个数字之间，所有整数的和", "方法总复习_最后的练习\方法练习_计算这两个数字之间，所有整数的和.csproj", "{C65EFFDF-8C79-4D0C-975F-DE070471CA3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法最后的练习2", "方法最后的练习2\方法最后的练习2.csproj", "{EEDF7BA9-CC87-4505-AD49-A7103D15C75A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_输出字符串数组中最长的字符串", "方法最后的练习2\方法练习_输出字符串数组中最长的字符串.csproj", "{EEDF7BA9-CC87-4505-AD49-A7103D15C75A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法最后的练习3", "方法最后的练习3\方法最后的练习3.csproj", "{A339A22F-D775-4255-B094-279A498F5CE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_计算一个整型数组的平均值，保留两位小数", "方法最后的练习3\方法练习_计算一个整型数组的平均值，保留两位小数.csproj", "{A339A22F-D775-4255-B094-279A498F5CE1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习 判断质数", "方法练习 判断质数\方法练习 判断质数.csproj", "{F28B254E-4D29-40FB-905E-A2E45F0333E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_输入分数_判断等级", "方法练习_输入分数_判断等级\方法练习_输入分数_判断等级.csproj", "{E7C7C1C9-12AD-470A-B438-A04CD1B86EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_反转字符串数组中的字符", "方法练习_反转字符串数组中的字符\方法练习_反转字符串数组中的字符.csproj", "{9D31825A-828A-4E96-8555-713C6414D188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_计算圆的面积和周长", "方法练习_计算圆的面积和周长\方法练习_计算圆的面积和周长.csproj", "{21215779-772D-427C-ABC6-39E7B8D3A975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_计算任意多个数间的最大值", "方法练习_计算任意多个数间的最大值\方法练习_计算任意多个数间的最大值.csproj", "{19905397-F61A-4771-88F0-2399D28330A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_冒泡排序", "方法练习_冒泡排序\方法练习_冒泡排序.csproj", "{A9B6C476-113B-4DB3-A12B-641A1FF08BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习_分割字符串数组", "方法练习_分割字符串数组\方法练习_分割字符串数组.csproj", "{3982503E-0A8F-4EFD-89C4-90150480DE5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +207,30 @@ Global
 		{F28B254E-4D29-40FB-905E-A2E45F0333E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F28B254E-4D29-40FB-905E-A2E45F0333E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F28B254E-4D29-40FB-905E-A2E45F0333E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C7C1C9-12AD-470A-B438-A04CD1B86EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C7C1C9-12AD-470A-B438-A04CD1B86EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C7C1C9-12AD-470A-B438-A04CD1B86EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C7C1C9-12AD-470A-B438-A04CD1B86EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D31825A-828A-4E96-8555-713C6414D188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D31825A-828A-4E96-8555-713C6414D188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D31825A-828A-4E96-8555-713C6414D188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D31825A-828A-4E96-8555-713C6414D188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21215779-772D-427C-ABC6-39E7B8D3A975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21215779-772D-427C-ABC6-39E7B8D3A975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21215779-772D-427C-ABC6-39E7B8D3A975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21215779-772D-427C-ABC6-39E7B8D3A975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19905397-F61A-4771-88F0-2399D28330A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19905397-F61A-4771-88F0-2399D28330A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19905397-F61A-4771-88F0-2399D28330A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19905397-F61A-4771-88F0-2399D28330A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B6C476-113B-4DB3-A12B-641A1FF08BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B6C476-113B-4DB3-A12B-641A1FF08BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B6C476-113B-4DB3-A12B-641A1FF08BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B6C476-113B-4DB3-A12B-641A1FF08BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3982503E-0A8F-4EFD-89C4-90150480DE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3982503E-0A8F-4EFD-89C4-90150480DE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3982503E-0A8F-4EFD-89C4-90150480DE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3982503E-0A8F-4EFD-89C4-90150480DE5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
